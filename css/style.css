@@ -133,3 +133,28 @@ img {
         width: 100%;
      }
  }
+
+ @media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .col{
+        min-width: 100%;
+        padding: 10%;
+    }
+
+    .why-us{
+        background-color: black;
+        margin: 0rem;
+        padding: 8%;
+    }
+
+    .steps{
+        margin: 0rem;
+    }
+ };
